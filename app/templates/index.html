@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 
-{% block title %}Inicio{% endblock %}
+{% block title %}My App{% endblock %}
 
 {% block content %}
-<h1>¡Bienvenido a mi primera app Flask!</h1>
-<p>Este es un ejemplo básico de una página Flask.</p>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+<div style="text-align: center;">
+    <h1>My App</h1>
+    <p>What are you looking for?</p>
+
+    <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-box">
+        <button class="search-button">Search</button>
+    </div>
+</div>
 {% endblock %}

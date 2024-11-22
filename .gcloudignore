@@ -1,0 +1,16 @@
+# Exclude all files by default
+**/*
+
+# Include only necessary files
+!app.yaml
+!requirements.txt
+!run.py
+!app/**
+
+# Exclude specific directories or files
+.git/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
